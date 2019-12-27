@@ -8,6 +8,7 @@
 /* general styles */
 /* -------------------- */
 
+/* TODO what is this? */
 * {
   box-sizing: border-box;
 }
@@ -41,7 +42,6 @@ h1 {
   font-size: 23px;
   font-weight: bold;
   text-align: center;
-  /* TODO: add more space. test. */
 }
 
 .navbar {
@@ -66,14 +66,11 @@ h1 {
 .navbar a {
   text-decoration: none;
   color: grey;
-  /* width: 40px;
-  color: #777777;
-  font-size: 18px;
-  text-decoration: none; */
 }
 
 .navbar li:last-child {
   border-right: none;
+  /* TODO What is this? */
   /* padding-right: none; */
 }
 
@@ -84,7 +81,7 @@ h1 {
 
 body {
   background-image: url(../images/interlaced.png);
-  /* DIS? */
+  /* TODO what is this? */
   /* overflow: auto; */
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -93,7 +90,6 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
-  /* FIXME: test test test */
 }   
 
 .wrapper h2 {
@@ -123,11 +119,6 @@ body {
 /* ------------------------------------------------------- */
 /* footer styling for: index, portfolio, and contact pages */
 /* ------------------------------------------------------- */
-
-/* .footer_clear {
-  display: block;
-  clear: both;
-} */
 
 footer {
   background-color: #777777;
@@ -167,6 +158,7 @@ footer {
   margin-left: 50px;
 }
 
+/* This does the title over the pic */
 .portfolio-item h3 {
   background-color: #4aaaa5;
   color: #ffffff;
@@ -178,31 +170,31 @@ footer {
 }
 
 #port-1 {
-  background-image: url(../images/image-1.jpg);
+  background-image: url(../images/fabian-grohs-dC6Pb2JdAqs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #port-2 {
-  background-image: url(../images/image-2.jpg);
+  background-image: url(../images/fabian-grohs-dC6Pb2JdAqs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #port-3 {
-  background-image: url(../images/image-3.jpg);
+  background-image: url(../images/fabian-grohs-dC6Pb2JdAqs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #port-4 {
-  background-image: url(../images/image-4.jpg);
+  background-image: url(../images/fabian-grohs-dC6Pb2JdAqs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #port-5 {
-  background-image: url(../images/image-5.jpg);
+  background-image: url(../images/fabian-grohs-dC6Pb2JdAqs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
