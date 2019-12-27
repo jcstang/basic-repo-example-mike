@@ -82,8 +82,9 @@ h1 {
 /* ----------------------------- */
 
 body {
-  background-image: url(../images/old_moon/old_moon.png);
-  overflow: auto;
+  background-image: url(../images/interlaced.png);
+  /* DIS? */
+  /* overflow: auto; */
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -102,13 +103,13 @@ body {
   border-bottom: 3px solid #cccccc;
 }
 
-#bio_img {
+#bio-img {
   height: 200px;
   float: left;
   padding: 0px 20px 20px 0px;
 }
 
-.bio {
+.bio-section {
   font-size: 18px;
   color: #777777;
   line-height: 1.5;
@@ -121,10 +122,10 @@ body {
 /* footer styling for: index, portfolio, and contact pages */
 /* ------------------------------------------------------- */
 
-.footer_clear {
+/* .footer_clear {
   display: block;
   clear: both;
-}
+} */
 
 footer {
   background-color: #777777;
@@ -247,4 +248,12 @@ form button {
   color: #ffffff;
   padding: 10px 20px;
   font-size: 20px;
+}
+
+/* -------- */
+/* clearfix */
+/* -------- */
+.clearfix {
+  display: block;
+  clear: both;
 }
