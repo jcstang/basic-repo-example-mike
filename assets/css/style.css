@@ -41,6 +41,7 @@ h1 {
   font-size: 23px;
   font-weight: bold;
   text-align: center;
+  /* TODO: add more space. test. */
 }
 
 .navbar {
@@ -92,6 +93,7 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
+  /* FIXME: test test test */
 }   
 
 .wrapper h2 {
