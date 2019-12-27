@@ -4,4 +4,247 @@
 *
 */
 
+/* -------------------- */
+/* general styles */
+/* -------------------- */
 
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
+/* -------------------------- */
+/* Header Styling */
+/* -------------------------- */
+
+header {
+  background-color: whitesmoke;
+  border-bottom: 3px solid #cccccc;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+h1 {
+  height: 50px;
+  background-color: #4aaaa5;
+  color: whitesmoke;
+  float: left;
+  margin-left: 240px;
+  padding: 15px;
+  width: 210px;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar {
+  float: right;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 240px;
+  padding: 0;
+}
+
+.navbar ul {
+  width: 249px;
+}
+
+.navbar ul li {
+  color: #777777;
+  display: inline;
+  border-right: 2px solid #cccccc;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: grey;
+  /* width: 40px;
+  color: #777777;
+  font-size: 18px;
+  text-decoration: none; */
+}
+
+.navbar li:last-child {
+  border-right: none;
+  /* padding-right: none; */
+}
+
+
+/* ----------------------------- */
+/* main Body styling             */
+/* ----------------------------- */
+
+body {
+  background-image: url(../images/old_moon/old_moon.png);
+  overflow: auto;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}   
+
+.wrapper h2 {
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 25px 0px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #cccccc;
+}
+
+#bio_img {
+  height: 200px;
+  float: left;
+  padding: 0px 20px 20px 0px;
+}
+
+.bio {
+  font-size: 18px;
+  color: #777777;
+  line-height: 1.5;
+  margin-top: 40px;
+  padding: 5px 25px 15px 25px;
+}
+
+
+/* ------------------------------------------------------- */
+/* footer styling for: index, portfolio, and contact pages */
+/* ------------------------------------------------------- */
+
+.footer_clear {
+  display: block;
+  clear: both;
+}
+
+footer {
+  background-color: #777777;
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px 0px 10px 0px;
+  border-top: 5px solid #4aaaa5;
+}
+
+
+/* ----------------------------- */
+/* Gallery styling for: Portfolio */
+/* ----------------------------- */
+
+.gallery {
+  height: 700px;
+  margin: 40px 0px 0px 0px;
+  padding: 20px;
+}
+
+.portfolio-item {
+  position: relative;
+  margin-bottom: 20px;
+  width: 25%;
+  float: left;
+  padding: 70px;
+  height: 175px;
+}
+
+.portfolio-item:nth-last-of-type(even) {
+  float: right;
+  margin-right: 350px;
+}
+
+.portfolio-item:nth-last-of-type(odd) {
+  margin-left: 50px;
+}
+
+.portfolio-item h3 {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0px;
+  width: 100%;
+  position: absolute;
+  bottom: 15px; left: 0px;
+}
+
+#port-1 {
+  background-image: url(../images/image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#port-2 {
+  background-image: url(../images/image-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#port-3 {
+  background-image: url(../images/image-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#port-4 {
+  background-image: url(../images/image-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#port-5 {
+  background-image: url(../images/image-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* ----------------------------- */
+/* Styling for: Contact  */
+/* ----------------------------- */
+
+.contact-form {
+  font-size: 18px;
+  color: #777777;
+  line-height: 1.5;
+  margin: 40px 0px 130px 0px;
+  padding: 5px 25px 15px 25px;
+}
+
+form label{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block; 
+}
+
+form input {
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  border: 2px solid #cccccc;
+  padding: 8px;
+}
+
+form textarea {
+      width: 100%;
+      height: 200px;
+      display: block;
+      margin-bottom: 20px;
+      border: 2px solid #cccccc;
+      padding: 8px;
+      font-size: 20px;
+}
+
+form button {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
